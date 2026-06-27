@@ -1,8 +1,6 @@
 using System;
-using System.Reflection;
 using HarmonyLib;
 using NitroxCompatFramework.Core;
-using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace NitroxCompatFramework.Compatibility.Input;
@@ -29,10 +27,11 @@ internal static class GameplayInputRecoveryPatch
 
         try
         {
-            var field = AccessTools.Field(typeof(GameInputSystem), "actionMapGameplay");
             // Nitrox leaves the gameplay action map constructed but disabled.
-
-            InputActionMap map = field?.GetValue(__instance) as InputActionMap;
+            InputActionMap map =
+                ReflectionHelper.GetField<InputActionMap>(
+                    __instance,
+                    "actionMapGameplay");
 
             if (map == null)
             {

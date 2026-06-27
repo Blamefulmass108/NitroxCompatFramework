@@ -2,10 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
-    <AssemblyName>NitroxCompatFramework</AssemblyName>
     <RootNamespace>NitroxCompatFramework</RootNamespace>
     <LangVersion>latest</LangVersion>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <BaseAssemblyName>NitroxCompatFramework</BaseAssemblyName>
+    <AssemblyName Condition="'$(VersionSuffix)' != ''">$(BaseAssemblyName)_$(VersionSuffix)</AssemblyName>
+    <AssemblyName Condition="'$(VersionSuffix)' == ''">$(BaseAssemblyName)</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup />
