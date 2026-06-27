@@ -127,7 +127,7 @@ Compatibility may vary depending on game version, Nitrox version, Nautilus versi
 
 ## Notes
 
-* Approximately **69 community mods** have been evaluated with Nitrox Compatibility Framework.
+* Currently **69 community mods** have been evaluated with Nitrox Compatibility Framework.
 * The only confirmed incompatibilities are due to legacy Nautilus/Subnautica API changes rather than Nitrox Compatibility Framework itself.
 * Mods marked **Initial Validation** loaded successfully without runtime compatibility issues but should receive additional multiplayer gameplay testing before being considered fully validated.
 * Unless otherwise noted, all players in a multiplayer session should use matching versions of the tested mods.
