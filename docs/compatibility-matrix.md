@@ -103,7 +103,7 @@ Compatibility may vary depending on game version, Nitrox version, Nautilus versi
 | PickupableStorageEnhanced               |             2.0.0.2 |    ✅  | Initial Validation | Loaded successfully.                                               |
 | PicturesFromDatabase                    |                 1.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
 | QuickBatterySwitch                      |               0.1.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| QuickSlotsPlus                          |               3.0.0 |   🟡   |      Confirmed     | Additional quick-slot keybinding assignment not currently exposed. |
+| QuickSlotsPlus                          |               3.0.0 |    🟡  |      Confirmed     | Additional quick-slot keybinding assignment not currently exposed. |
 | QuickStore                              |               0.2.2 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
 | QuickUnpinRecipes                       |               1.1.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
 | RadialTabs                              |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
