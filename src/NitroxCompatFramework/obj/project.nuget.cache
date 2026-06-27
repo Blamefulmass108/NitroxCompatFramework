@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iPpt0WKiWFY=",
+  "success": true,
+  "projectFilePath": "D:\\Games\\Tests - Modded Mods\\NitroxCompatFramework\\src\\NitroxCompatFramework\\NitroxCompatFramework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jesse's BEAST\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Jesse's BEAST\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
