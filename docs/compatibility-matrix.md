@@ -8,13 +8,13 @@ Compatibility may vary depending on game version, Nitrox version, Nautilus versi
 
 ## Test Environment
 
-| Component                      | Version           |
-| ------------------------------ | ----------------- |
-| Subnautica                     | 1.22.82304        |
-| Nitrox                         | 1.8.1             |
-| Tobey's BepInEx Pack           | 5.4.23-pack.3.1.1 |
-| Nautilus                       | 1.0.0.51          |
-| Nitrox Compatibility Framework | 1.0.0             |
+| Component                      | Version           | Link                                                     |
+| ------------------------------ | ----------------- | -------------------------------------------------------- |
+| Subnautica                     | 1.22.82304        |                                                          |
+| Nitrox                         | 1.8.1             |                                                          |
+| Tobey's BepInEx Pack           | 5.4.23-pack.3.1.1 | https://www.nexusmods.com/subnautica/mods/1108           |
+| Nautilus                       | 1.0.0.51          | https://www.nexusmods.com/subnautica/mods/1262           |
+| Nitrox Compatibility Framework | 1.0.0             | https://github.com/Blamefulmass108/NitroxCompatFramework |
 
 ---
 
@@ -51,77 +51,80 @@ Compatibility may vary depending on game version, Nitrox version, Nautilus versi
 
 ## Compatibility Matrix
 
-| Mod                                     |             Version | Status |     Confidence     | Notes                                                              |
-| --------------------------------------- | ------------------: | :----: | :----------------: | ------------------------------------------------------------------ |
-| AdvancedInventory                       |              1.0.4a |    ✅  | Initial Validation | Loaded successfully.                                               |
-| AlterraMiniFridge                       |               1.0.2 |    ❌  |      Confirmed     | Obsolete Nautilus API.                                             |
-| AnisotropicFix                          |               2.0.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| AutoSortLockers SN                      |            1.0.0.0e |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| BagEquipment                            |               1.2.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| BaseLegsRemoval                         |             2.0.0.1 |    ✅  |      Confirmed     | Loaded successfully.                                               |
-| BaseLightSwitch                         |             1.0.0.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| BepInExTweaks                           |               1.2.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| BetterBioReactor (Purple Edition)       |             1.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| BetterScannerBlips (Purple Edition)     |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| BetterVehicleStorage (Purple Edition)   |             1.0.1.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| BlueprintSearchBar                      |               1.1.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| BlueprintsBetterUI                      |               1.0.2 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| BuildingTweaks                          |             2.0.1.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| ConfigurationManager for BepInEx        | 18.4.1-tweaks.2.0.0 |    ✅  |      Confirmed     | Required dependency.                                               |
-| CuddlefishRecall                        |               1.4.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| CustomizedStorage                       |               1.0.5 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| CustomizeYourSpawns                     |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| CyclopsAutoZappers (Purple Edition)     |             1.0.1.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| CyclopsDockingMod                       |               2.1.1 |    ❌  |      Confirmed     | Obsolete Nautilus API.                                             |
-| CyclopsEngineUpgrades (Purple Edition)  |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| CyclopsEnhancement_Sonar                |                 0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| CyclopsNuclearUpgrades (Purple Edition) |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| CyclopsSpeedUpgrades (Purple Edition)   |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| Defabricator                            |             2.0.1.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| DrillableScan                           |               2.0.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| DropStorageItemsOnDestroy               |               1.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| DropUpgradesOnDestroy                   |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| EasyCraft                               |               1.1.6 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| EnableAchievements                      |               5.0.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| EnhancedGravTrap                        |               1.4.3 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| FabricatorNoAutoClose                   |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| FastLoadingScreen                       |               2.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| FreeBaseLights                          |               1.0.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| FreeLook                                |               2.4.4 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| GeysersPerformanceFix                   |               1.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| HullReinforcementFix                    |               1.2.7 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| ImprovedPowerNetwork                    |             2.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| ImprovedScanInfo                        |               2.0.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| LaserCutterSpeed                        |               2.5.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| LongerSigns                             |               1.0.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| Map                                     |              1.5.12 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| MoonpoolVehicleRepair SN                |               1.0.7 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| MoreCyclopsUpgrades (Purple Edition)    |             1.0.2.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| MoreModifiedItems (Purple Edition)      |             2.0.5.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| NoEpilepsyWarning                       |               5.0.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| NoLoudBangsInCyclops                    |               1.0.2 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| PickupableStorageEnhanced               |             2.0.0.2 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| PicturesFromDatabase                    |                 1.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| QuickBatterySwitch                      |               0.1.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| QuickSlotsPlus                          |               3.0.0 |    🟡  |      Confirmed     | Additional quick-slot keybinding assignment not currently exposed. |
-| QuickStore                              |               0.2.2 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| QuickUnpinRecipes                       |               1.1.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| RadialTabs                              |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| RepairTransportLights                   |                 1.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| ScannableTimeCapsules                   |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| SeamothEject                            |               2.0.2 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| SeamothEnhancement_Sonar                |              0.10.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| SeamothThermalReactor                   |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| SinkingItemsFix                         |               2.0.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| SleekBases                              |                 2.3 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| SlotExtender                            |                 3.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| SnapBuilder                             |                 2.4 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| StorageInfo                             |               2.2.0 |    ✅  | Initial Validation | Loaded successfully.                                               |
-| SwimChargeInventory                     |               2.1.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| TrackEverything                         |               0.1.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| TrueBaseColorizer                       |                 1.8 |    ❌  |      Confirmed     | Obsolete Nautilus API.                                             |
-| UpgradedJumpJetModule                   |               1.1.4 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
-| VisibleLockerInterior                   |               2.0.4 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                   |
+| Mod                                     |             Version | Status |     Confidence     | Notes                                                                       | Link                                           |
+| --------------------------------------- | ------------------: | :----: | :----------------: | --------------------------------------------------------------------------- | ---------------------------------------------- |
+| AdvancedInventory                       |              1.0.4a |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/490  |
+| AlterraMiniFridge                       |               1.0.2 |    ❌  |      Confirmed     | Obsolete Nautilus API.                                                      | https://www.nexusmods.com/subnautica/mods/1793 |
+| AnisotropicFix                          |               2.0.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/185  |
+| AutoSortLockers SN                      |            1.0.0.0e |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1504 |
+| BagEquipment                            |               1.2.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/493  |
+| BaseLegsRemoval                         |             2.0.0.1 |    ✅  |      Confirmed     | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1118 |
+| BaseLightSwitch                         |             1.0.0.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1485 |
+| BelugaSubmarine                         |               2.0.4 |    ❌  |      Confirmed     | Critical issue with Nitrox sync. **USAGE CAUSES PERMA-DESYNC. DO NOT USE!** | https://www.nexusmods.com/subnautica/mods/1748 |
+| BepInExTweaks                           |               1.2.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1104 |
+| BetterBioReactor (Purple Edition)       |             1.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1466 |
+| BetterScannerBlips (Purple Edition)     |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1467 |
+| BetterVehicleStorage (Purple Edition)   |             1.0.1.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1471 |
+| BlueprintSearchBar                      |               1.1.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1300 |
+| BlueprintsImprovedUI                    |               1.0.2 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/990  |
+| BuildingTweaks                          |             2.0.1.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1121 |
+| ConfigurationManager for BepInEx        | 18.4.1-tweaks.2.0.0 |    ✅  |      Confirmed     | Required dependency.                                                        | https://www.nexusmods.com/subnautica/mods/1112 |
+| CuddlefishRecall                        |               1.4.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1190 |
+| CustomizedStorage                       |               1.0.5 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/35   |
+| CustomizeYourSpawns                     |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1124 |
+| CyclopsAutoZappers (Purple Edition)     |             1.0.1.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1429 |
+| CyclopsDockingMod                       |               2.1.1 |    ❌  |      Confirmed     | Obsolete Nautilus API.                                                      | https://www.nexusmods.com/subnautica/mods/554  |
+| CyclopsDockingMod (Continued)           |               2.1.1 |    ✅  |      Confirmed     | Updated CyclopsDockingMod to function with the modern Nautilus API          | https://www.nexusmods.com/subnautica/mods/2799 |
+| CyclopsEngineUpgrades (Purple Edition)  |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1428 |
+| CyclopsEnhancement_Sonar                |                 0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1358 |
+| CyclopsNuclearUpgrades (Purple Edition) |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1430 |
+| CyclopsSpeedUpgrades (Purple Edition)   |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1427 |
+| Defabricator                            |             2.0.1.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/216  |
+| DrillableScan                           |               2.0.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1440 |
+| DropStorageItemsOnDestroy               |               1.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1256 |
+| DropUpgradesOnDestroy                   |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1126 |
+| EasyCraft                               |               1.1.6 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/24   |
+| EnhancedGravTrap                        |               1.4.3 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1340 |
+| FabricatorNoAutoClose                   |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1127 |
+| FastLoadingScreen                       |               2.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/763  |
+| FreeBaseLights                          |               1.0.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1266 |
+| FreeLook                                |               2.4.4 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/517  |
+| GeysersPerformanceFix                   |               1.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/394  |
+| HullReinforcementFix                    |               1.2.7 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1348 |
+| ImprovedPowerNetwork                    |             2.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1129 |
+| ImprovedScanInfo                        |               2.0.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1228 |
+| LaserCutterSpeed                        |               2.5.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1214 |
+| LongerSigns                             |               1.0.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1296 |
+| Map                                     |              1.5.12 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/12   |
+| MoonpoolVehicleRepair SN                |               1.0.7 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/51   |
+| MoreCyclopsUpgrades (Purple Edition)    |             1.0.2.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1407 |
+| MoreModifiedItems (Purple Edition)      |             2.0.5.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/398  |
+| NoLoudBangsInCyclops                    |               1.0.2 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/950  |
+| NoPdaDelay                              |               1.1.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1105 |
+| PickupableStorageEnhanced               |             2.0.0.2 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/220  |
+| PicturesFromDatabase                    |                 1.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1195 |
+| QuickBatterySwitch                      |               0.1.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1221 |
+| QuickSlotsPlus                          |               3.0.0 |    🟡  |      Confirmed     | Additional quick-slot keybinding assignment not currently exposed.          | https://www.nexusmods.com/subnautica/mods/984  |
+| QuickStore                              |               0.2.2 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1215 |
+| QuickUnpinRecipes                       |               1.1.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1305 |
+| RadialTabs                              |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/207  |
+| RepairTransportLights                   |                 1.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1231 |
+| ScannableTimeCapsules                   |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1138 |
+| SeamothEject                            |               2.0.2 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/740  |
+| SeamothEnhancement_Sonar                |              0.10.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1322 |
+| SeamothThermalReactor                   |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1139 |
+| SinkingItemsFix                         |               2.0.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/864  |
+| SleekBases                              |                 2.3 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1180 |
+| SlotExtender                            |                 3.0 |    ❌  |      Confirmed     | Obsolete Nautilus API.                                                      | https://www.nexusmods.com/subnautica/mods/142  |
+| SlotExtender 2025                       |                 1.0 |    ✅  |      Confirmed     | Updated SlotExtender to function with the modern Nautilus API               | https://www.nexusmods.com/subnautica/mods/3194 |
+| SnapBuilder                             |                 2.4 |    ✅  |      Confirmed     | Multiplayer tested Successfully.                                            | https://www.nexusmods.com/subnautica/mods/427  |
+| StorageInfo                             |               2.2.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/229  |
+| SwimChargeInventory                     |               2.1.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1169 |
+| TrackEverything                         |               0.1.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1235 |
+| TrueBaseColorizer                       |                 1.8 |    ❌  |      Confirmed     | Obsolete Nautilus API.                                                      | https://www.nexusmods.com/subnautica/mods/1212 |
+| UpgradedJumpJetModule                   |               1.1.4 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1316 |
+| VehicleFramework                        |               2.0.8 |    🟡  |       Unknown      | Critical desync when using mod vehicles. Advise against using.              | https://www.nexusmods.com/subnautica/mods/859  |
+| VisibleLockerInterior 2025              |               2.0.4 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/2547 |
 
 ---
 
@@ -131,3 +134,4 @@ Compatibility may vary depending on game version, Nitrox version, Nautilus versi
 * The only confirmed incompatibilities are due to legacy Nautilus/Subnautica API changes rather than Nitrox Compatibility Framework itself.
 * Mods marked **Initial Validation** loaded successfully without runtime compatibility issues but should receive additional multiplayer gameplay testing before being considered fully validated.
 * Unless otherwise noted, all players in a multiplayer session should use matching versions of the tested mods.
+* As it stands, vehicle mods cause a critical desync error with Nitrox and should not be used. *Saves will be corrupted if used.* There is no plan in NCF's future to make a fix for this. 

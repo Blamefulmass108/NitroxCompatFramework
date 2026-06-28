@@ -418,10 +418,10 @@
     "C:\\Users\\Jesse's BEAST\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0-v1.0.0.release",
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\Games\\Tests - Modded Mods\\NitroxCompatFramework\\src\\NitroxCompatFramework\\NitroxCompatFramework.csproj",
-      "projectName": "NitroxCompatFramework_v1.0.0.release",
+      "projectName": "NitroxCompatFramework",
       "projectPath": "D:\\Games\\Tests - Modded Mods\\NitroxCompatFramework\\src\\NitroxCompatFramework\\NitroxCompatFramework.csproj",
       "packagesPath": "C:\\Users\\Jesse's BEAST\\.nuget\\packages\\",
       "outputPath": "D:\\Games\\Tests - Modded Mods\\NitroxCompatFramework\\src\\NitroxCompatFramework\\obj\\",
