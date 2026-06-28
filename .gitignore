@@ -1,6 +1,8 @@
 # Build output
 bin/
 obj/
+src/NitroxCompatFramework/bin/
+src/NitroxCompatFramework/obj/
 
 # Visual Studio
 .vs/

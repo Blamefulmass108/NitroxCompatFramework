@@ -22,11 +22,12 @@ Compatibility may vary depending on game version, Nitrox version, Nautilus versi
 
 | Metric                  | Value |
 | ----------------------- | ----: |
-| Total Mods Evaluated    |    69 |
-| Confirmed Working       |    30 |
-| Expected Working        |    36 |
-| Partial                 |     1 |
-| Legacy API Incompatible |     3 |
+| Total Mods Evaluated    |    74 |
+| Confirmed Working       |    35 |
+| Expected Working        |    31 |
+| Partial                 |     3 |
+| Legacy/API Incompatible |     4 |
+| FULLY INCOMPATIBLE      |     1 |
 
 ---
 
@@ -59,8 +60,8 @@ Compatibility may vary depending on game version, Nitrox version, Nautilus versi
 | AutoSortLockers SN                      |            1.0.0.0e |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1504 |
 | BagEquipment                            |               1.2.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/493  |
 | BaseLegsRemoval                         |             2.0.0.1 |    ✅  |      Confirmed     | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1118 |
-| BaseLightSwitch                         |             1.0.0.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1485 |
-| BelugaSubmarine                         |               2.0.4 |    ❌  |      Confirmed     | Critical issue with Nitrox sync. **USAGE CAUSES PERMA-DESYNC. DO NOT USE!** | https://www.nexusmods.com/subnautica/mods/1748 |
+| BaseLightSwitch                         |             1.0.0.0 |    🟡  | Initial Validation | Loaded successfully. Actual synchronicity untested                          | https://www.nexusmods.com/subnautica/mods/1485 |
+| BelugaSubmarine                         |               2.0.4 |    ❌  |    INCOMPATIBLE    | Critical issue with Nitrox sync. **USAGE CAUSES PERMA-DESYNC. DO NOT USE!** | https://www.nexusmods.com/subnautica/mods/1748 |
 | BepInExTweaks                           |               1.2.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1104 |
 | BetterBioReactor (Purple Edition)       |             1.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1466 |
 | BetterScannerBlips (Purple Edition)     |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1467 |
@@ -74,7 +75,7 @@ Compatibility may vary depending on game version, Nitrox version, Nautilus versi
 | CustomizeYourSpawns                     |             2.0.0.1 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1124 |
 | CyclopsAutoZappers (Purple Edition)     |             1.0.1.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1429 |
 | CyclopsDockingMod                       |               2.1.1 |    ❌  |      Confirmed     | Obsolete Nautilus API.                                                      | https://www.nexusmods.com/subnautica/mods/554  |
-| CyclopsDockingMod (Continued)           |               2.1.1 |    ✅  |      Confirmed     | Updated CyclopsDockingMod to function with the modern Nautilus API          | https://www.nexusmods.com/subnautica/mods/2799 |
+| CyclopsDockingMod (Continued)           |               2.1.1 |    🟡  |       Unknown      | Updated CyclopsDockingMod. Needs further testing, autopilot seems to desync | https://www.nexusmods.com/subnautica/mods/2799 |
 | CyclopsEngineUpgrades (Purple Edition)  |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1428 |
 | CyclopsEnhancement_Sonar                |                 0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1358 |
 | CyclopsNuclearUpgrades (Purple Edition) |             1.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1430 |
@@ -94,6 +95,7 @@ Compatibility may vary depending on game version, Nitrox version, Nautilus versi
 | ImprovedPowerNetwork                    |             2.0.0.1 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1129 |
 | ImprovedScanInfo                        |               2.0.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1228 |
 | LaserCutterSpeed                        |               2.5.0 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/1214 |
+| LockerLabels                            |               1.3.0 |    🟡  |      Confirmed     | Labels work local, but are not synced. Needs to be updated or NCF bridged.¹ | https://www.nexusmods.com/subnautica/mods/3785 |
 | LongerSigns                             |               1.0.0 |    ✅  | Initial Validation | Loaded successfully.                                                        | https://www.nexusmods.com/subnautica/mods/1296 |
 | Map                                     |              1.5.12 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/12   |
 | MoonpoolVehicleRepair SN                |               1.0.7 |    ✅  |      Confirmed     | Multiplayer tested successfully.                                            | https://www.nexusmods.com/subnautica/mods/51   |
@@ -134,4 +136,5 @@ Compatibility may vary depending on game version, Nitrox version, Nautilus versi
 * The only confirmed incompatibilities are due to legacy Nautilus/Subnautica API changes rather than Nitrox Compatibility Framework itself.
 * Mods marked **Initial Validation** loaded successfully without runtime compatibility issues but should receive additional multiplayer gameplay testing before being considered fully validated.
 * Unless otherwise noted, all players in a multiplayer session should use matching versions of the tested mods.
-* As it stands, vehicle mods cause a critical desync error with Nitrox and should not be used. *Saves will be corrupted if used.* There is no plan in NCF's future to make a fix for this. 
+* As it stands, vehicle mods cause a critical desync error with Nitrox and should not be used. *Saves will be corrupted if used.* There is no plan in NCF's future to make a fix for this.
+* ¹ Mod creator has been informed. Potential NCF bridge coming soon if demand exists.
